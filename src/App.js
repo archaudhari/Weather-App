@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import WeatherData from './src/co';
+import WeatherData from './components/WeatherData';
 
 const App = () => {
   const [city, setCity] = useState('San Francisco');
